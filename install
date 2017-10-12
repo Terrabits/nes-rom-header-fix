@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+ROMS=/home/pi/RetroPie/roms
+
+cp -nv ./GB/*   "$ROMS"/gb
+cp -nv ./NES/*  "$ROMS"/nes
+cp -nv ./SNES/* "$ROMS"/snes
+cp -nv ./N64/*  "$ROMS"/n64
